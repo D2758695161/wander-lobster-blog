@@ -10,17 +10,16 @@
     .container { max-width: 1100px; margin: 0 auto; }
     h1 { font-size: 48px; font-weight: 800; text-align: center; margin-bottom: 12px; background: linear-gradient(135deg, #f97316, #4ade80); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
     .subtitle { text-align: center; color: #666680; margin-bottom: 48px; font-size: 18px; }
-    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
-    .product { background: #111118; border: 1px solid #1e1e2e; border-radius: 16px; overflow: hidden; transition: border-color 0.2s, transform 0.2s; }
-    .product:hover { border-color: #f97316; transform: translateY(-4px); }
+    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; }
+    .product { background: #111118; border: 1px solid #1e1e2e; border-radius: 12px; overflow: hidden; transition: border-color 0.2s, transform 0.2s; }
+    .product:hover { border-color: #f97316; transform: translateY(-3px); }
     .product img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; }
-    .product-info { padding: 16px; }
-    .product h3 { font-size: 14px; font-weight: 700; margin-bottom: 6px; }
-    .product p { color: #666680; font-size: 12px; margin-bottom: 12px; line-height: 1.4; }
+    .product-info { padding: 14px; }
+    .product h3 { font-size: 13px; font-weight: 700; margin-bottom: 4px; }
+    .product p { color: #666680; font-size: 11px; margin-bottom: 10px; }
     .price-row { display: flex; align-items: center; justify-content: space-between; }
-    .price { font-size: 20px; font-weight: 700; color: #f97316; }
-    .buy-btn { background: #f97316; color: #000; padding: 6px 12px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 12px; transition: background 0.2s; }
-    .buy-btn:hover { background: #fb923c; }
+    .price { font-size: 18px; font-weight: 700; color: #f97316; }
+    .buy-btn { background: #f97316; color: #000; padding: 5px 10px; border-radius: 6px; text-decoration: none; font-weight: 700; font-size: 11px; }
     .payment { background: #111118; border: 1px solid #1e1e2e; border-radius: 16px; padding: 32px; margin-top: 48px; text-align: center; }
     .payment h2 { font-size: 24px; margin-bottom: 16px; }
     .payment p { color: #666680; margin-bottom: 16px; max-width: 500px; margin-left: auto; margin-right: auto; }
@@ -31,7 +30,7 @@
     nav a { color: #666680; text-decoration: none; margin: 0 12px; font-size: 14px; }
     nav a:hover { color: #e0e0f0; }
     nav .brand { color: #f97316; font-weight: 700; font-size: 18px; }
-    .badge { background: #f97316; color: #000; font-size: 10px; padding: 2px 5px; border-radius: 4px; font-weight: 700; margin-left: 6px; vertical-align: middle; }
+    .badge { background: #f97316; color: #000; font-size: 10px; padding: 2px 5px; border-radius: 4px; font-weight: 700; margin-left: 5px; }
   </style>
 </head>
 <body>
@@ -43,114 +42,28 @@
     </nav>
     
     <h1>AI Digital Products</h1>
-    <p class="subtitle">Premium AI-generated assets · Commercial license</p>
+    <p class="subtitle">11 products · Commercial license · Instant delivery</p>
     
     <div class="products">
-      <div class="product">
-        <img src="cover1.png" alt="AI Wealth Blueprint">
-        <div class="product-info">
-          <h3>AI Wealth Blueprint <span class="badge">HOT</span></h3>
-          <p>1024x1024 PNG. Commercial use.</p>
-          <div class="price-row">
-            <span class="price">$9</span>
-            <a href="#payment" class="buy-btn">Buy</a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="product">
-        <img src="cover2.png" alt="The AI Side Hustle">
-        <div class="product-info">
-          <h3>The AI Side Hustle</h3>
-          <p>1024x1024 PNG. Commercial use.</p>
-          <div class="price-row">
-            <span class="price">$9</span>
-            <a href="#payment" class="buy-btn">Buy</a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="product">
-        <img src="cover3.png" alt="AI Business Automation">
-        <div class="product-info">
-          <h3>AI Business Automation</h3>
-          <p>1536x1024 PNG. Commercial use.</p>
-          <div class="price-row">
-            <span class="price">$12</span>
-            <a href="#payment" class="buy-btn">Buy</a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="product">
-        <img src="cover4.png" alt="ChatGPT Prompt Mastery">
-        <div class="product-info">
-          <h3>ChatGPT Prompt Mastery</h3>
-          <p>1024x1024 PNG. Commercial use.</p>
-          <div class="price-row">
-            <span class="price">$9</span>
-            <a href="#payment" class="buy-btn">Buy</a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="product">
-        <img src="cover5.png" alt="AI Wealth Premium">
-        <div class="product-info">
-          <h3>AI Wealth Blueprint <span class="badge">PREMIUM</span></h3>
-          <p>Premium version. 1024x1024 PNG.</p>
-          <div class="price-row">
-            <span class="price">$15</span>
-            <a href="#payment" class="buy-btn">Buy</a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="product">
-        <img src="cover6.png" alt="AI Side Hustle Bundle">
-        <div class="product-info">
-          <h3>The AI Side Hustle <span class="badge">BUNDLE</span></h3>
-          <p>Bundle version. 1024x1024 PNG.</p>
-          <div class="price-row">
-            <span class="price">$12</span>
-            <a href="#payment" class="buy-btn">Buy</a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="product">
-        <img src="cover7.png" alt="AI Business Blueprint">
-        <div class="product-info">
-          <h3>AI Business Blueprint</h3>
-          <p>Minimalist design. 1024x1024 PNG.</p>
-          <div class="price-row">
-            <span class="price">$9</span>
-            <a href="#payment" class="buy-btn">Buy</a>
-          </div>
-        </div>
-      </div>
-      
-      <div class="product">
-        <img src="cover8.png" alt="Remote Work Revolution">
-        <div class="product-info">
-          <h3>Remote Work Revolution</h3>
-          <p>Stock photo style. 1536x1024 PNG.</p>
-          <div class="price-row">
-            <span class="price">$12</span>
-            <a href="#payment" class="buy-btn">Buy</a>
-          </div>
-        </div>
-      </div>
+      <div class="product"><img src="cover1.png" alt="AI Wealth Blueprint"><div class="product-info"><h3>AI Wealth Blueprint <span class="badge">HOT</span></h3><p>1024x1024 · Commercial</p><div class="price-row"><span class="price">$9</span><a href="#payment" class="buy-btn">Buy</a></div></div></div>
+      <div class="product"><img src="cover2.png" alt="AI Side Hustle"><div class="product-info"><h3>The AI Side Hustle</h3><p>1024x1024 · Commercial</p><div class="price-row"><span class="price">$9</span><a href="#payment" class="buy-btn">Buy</a></div></div></div>
+      <div class="product"><img src="cover3.png" alt="AI Business Automation"><div class="product-info"><h3>AI Business Automation</h3><p>1536x1024 · Stock</p><div class="price-row"><span class="price">$12</span><a href="#payment" class="buy-btn">Buy</a></div></div></div>
+      <div class="product"><img src="cover4.png" alt="ChatGPT Prompt Mastery"><div class="product-info"><h3>ChatGPT Prompt Mastery</h3><p>1024x1024 · Commercial</p><div class="price-row"><span class="price">$9</span><a href="#payment" class="buy-btn">Buy</a></div></div></div>
+      <div class="product"><img src="cover5.png" alt="AI Wealth Premium"><div class="product-info"><h3>AI Wealth Blueprint <span class="badge">PREMIUM</span></h3><p>1024x1024 · Premium</p><div class="price-row"><span class="price">$15</span><a href="#payment" class="buy-btn">Buy</a></div></div></div>
+      <div class="product"><img src="cover6.png" alt="AI Side Hustle Bundle"><div class="product-info"><h3>AI Side Hustle <span class="badge">BUNDLE</span></h3><p>1024x1024 · Bundle</p><div class="price-row"><span class="price">$12</span><a href="#payment" class="buy-btn">Buy</a></div></div></div>
+      <div class="product"><img src="cover7.png" alt="AI Business Blueprint"><div class="product-info"><h3>AI Business Blueprint</h3><p>1024x1024 · Minimalist</p><div class="price-row"><span class="price">$9</span><a href="#payment" class="buy-btn">Buy</a></div></div></div>
+      <div class="product"><img src="cover8.png" alt="Remote Work"><div class="product-info"><h3>Remote Work Revolution</h3><p>1536x1024 · Stock</p><div class="price-row"><span class="price">$12</span><a href="#payment" class="buy-btn">Buy</a></div></div></div>
+      <div class="product"><img src="cover9.png" alt="AI Tools Stack"><div class="product-info"><h3>AI Tools Stack 2026</h3><p>1024x1024 · Infographic</p><div class="price-row"><span class="price">$9</span><a href="#payment" class="buy-btn">Buy</a></div></div></div>
+      <div class="product"><img src="cover10.png" alt="Make Money AI"><div class="product-info"><h3>Make Money with AI <span class="badge">NEW</span></h3><p>1024x1024 · Ebook Cover</p><div class="price-row"><span class="price">$9</span><a href="#payment" class="buy-btn">Buy</a></div></div></div>
+      <div class="product"><img src="cover11.png" alt="AI Analytics"><div class="product-info"><h3>AI Analytics Platform</h3><p>1536x1024 · Dashboard</p><div class="price-row"><span class="price">$12</span><a href="#payment" class="buy-btn">Buy</a></div></div></div>
     </div>
     
     <div class="payment" id="payment">
       <h2>💳 Buy Now</h2>
-      <p>Send USDT (TRC20) or email to discuss. Fast delivery within 24h.</p>
-      <div class="wallet">
-        <span class="trx">TRC20:</span> TPAPC39xtYjVNj1CQnqftXzJfi7BqCRnaN
-      </div>
+      <p>Send USDT (TRC20) or email to order. Fast delivery within 24h.</p>
+      <div class="wallet"><span class="trx">TRC20:</span> TPAPC39xtYjVNj1CQnqftXzJfi7BqCRnaN</div>
       <p>Email: <strong>13510221939@163.com</strong></p>
-      <p class="note">All files delivered in high-resolution PNG format via email within 24 hours of payment confirmation.</p>
+      <p class="note">All files delivered in high-resolution PNG format via email within 24 hours.</p>
     </div>
   </div>
 </body>
